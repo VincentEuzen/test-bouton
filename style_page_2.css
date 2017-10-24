@@ -1,0 +1,137 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #143A52;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#global {
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+
+}
+
+#first_two_images {
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+#image_1 {
+  height:300px;
+  width:300px;
+  border-radius:300px 0 0 0;"
+  float: left;
+  margin:0;
+  padding:0;
+  border: 0;
+  transition: all 0.5s ease-in-out 0s;
+  opacity: 0.9;
+
+}
+
+#image_1:hover {
+    transform: rotate(-2deg);
+    opacity: 1;
+    transform-origin: bottom left;
+
+}
+
+#image_2 {
+  height:300px;
+  width:300px;
+  border-radius: 0 300px 0 0;"
+  float: right;
+  margin:0;
+  padding:0;
+  border: 0;
+  transition: all 0.5s ease-in-out 0s;
+  opacity: 0.9;
+}
+
+#image_2:hover {
+  transform: rotate(2deg);
+    opacity: 1;
+    transform-origin: bottom right;
+}
+
+#second_two_images {
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+#image_3 {
+  height:300px;
+  width:300px;
+  border-radius: 0 0 0 300px;"
+  float: left;
+  transition: all 0.5s ease-in-out 0s;
+  opacity: 0.9;
+}
+
+#image_3:hover {
+  transform: rotate(2deg);
+    opacity: 1;
+    transform-origin: top left;
+}
+
+#image_4 {
+  height:300px;
+  width:300px;
+  border-radius: 0  0 300px 0;"
+  float: right;
+  margin:0;
+  padding:0;
+  transition: all 0.5s ease-in-out 0s;
+  opacity: 0.9;
+}
+
+#image_4:hover {
+  transform: rotate(-2deg);
+    opacity: 1;
+    transform-origin: top right;
+}
+
+
+h1 {
+  font-family: 'Poiret One';
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+#cercle {
+    height: 615px;
+    width: 615px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: 312px; left: 50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:0;
+
+}
+
